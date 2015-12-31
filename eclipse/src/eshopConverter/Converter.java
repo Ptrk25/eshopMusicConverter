@@ -25,7 +25,6 @@ public class Converter extends Thread{
 	        double totalSecs = Integer.parseInt(hms[0]) * 3600
 	                         + Integer.parseInt(hms[1]) *   60
 	                         + Double.parseDouble(hms[2]);
-	        //System.out.println("Total duration: " + totalSecs + " seconds.");
 
 	        // Find time as long as possible.
 	        Pattern timePattern = Pattern.compile("(?<=time=)[\\d:.]*");
